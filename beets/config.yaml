@@ -1,0 +1,29 @@
+directory: ~/Music
+library: ~/Music/library.db
+
+import:
+  move: yes
+  write: yes
+  log: beetslog.txt
+paths:
+  default: $albumartist/$album%aunique{}/$track $title
+  singleton: Non-Album/$artist/$title
+  comp: Compilations/$album%aunique{}/$track $title
+ui:
+  color: yes
+art_filename: cover
+
+plugins: fetchart convert thumbnails
+
+convert:
+  auto: yes
+  delete_originals: no
+  embed: yes
+  format: mp3
+  formats:
+    mp3: ffmpeg -i $source -ab 320k -map_metadata 0 -id3v2_version 3 $dest
+
+thumbnails:
+  auto: yes
+  force: no
+  dolphin: yes

@@ -1,0 +1,4 @@
+--theme="gruvbox-dark"
+--style="snip"
+--pager="less -RF"
+--tabs=4

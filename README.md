@@ -1,4 +1,4 @@
 # dotfiles
 My dotfiles
 
-![Example:](./pictures/image.png)
+![Example:](./term.png)

@@ -1,30 +1,3 @@
-set number
-set autoindent
-set tabstop=4
-set softtabstop=4
-set nowrap
-set cursorline
-set relativenumber
-set background=dark
-set encoding=UTF-8
-nnoremap <space>pv :Ex <CR>
-
-call plug#begin("~/.local/share/nvim/site/plugged")
-	Plug 'ellisonleao/gruvbox.nvim'
-	Plug 'vim-airline/vim-airline'
-	Plug 'vim-airline/vim-airline-themes'
-	Plug 'ryanoasis/vim-devicons'
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-	Plug 'mhinz/vim-startify'
-	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-	Plug 'tpope/vim-vinegar'
-	Plug 'tpope/vim-fugitive'
-	Plug 'tpope/vim-endwise'
-	Plug 'rstacruz/vim-closer'
-call plug#end()
-
-colorscheme gruvbox
-
 let g:airline_theme="base16_gruvbox_dark_hard"
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = "unique_tail_improved"

@@ -1,0 +1,21 @@
+hyprctl dispatch moveworkspacetomonitor 1 DP-3
+hyprctl dispatch moveworkspacetomonitor 2 DP-3
+hyprctl dispatch moveworkspacetomonitor 3 DP-3
+hyprctl dispatch moveworkspacetomonitor 4 DP-3
+hyprctl dispatch moveworkspacetomonitor 5 DP-3
+hyprctl dispatch moveworkspacetomonitor 6 DP-3
+hyprctl dispatch moveworkspacetomonitor 7 DP-3
+hyprctl dispatch moveworkspacetomonitor 8 DP-3
+hyprctl dispatch moveworkspacetomonitor 9 DP-3
+hyprctl dispatch moveworkspacetomonitor 10 DP-3
+
+hyprctl dispatch moveworkspacetomonitor 11 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 12 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 13 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 14 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 15 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 16 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 17 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 18 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 19 HDMI-A-1
+hyprctl dispatch moveworkspacetomonitor 20 HDMI-A-1

@@ -1,10 +1,10 @@
 format = """
-[](color_purple)\
+[](color_yellow)\
 $os\
 $username\
-[](bg:color_blue fg:color_purple)\
+[](bg:color_red fg:color_yellow)\
 $directory\
-[ ](fg:color_blue)\
+[ ](fg:color_red)\
 $line_break$character"""
 
 palette = 'gruvbox_dark'
@@ -15,15 +15,15 @@ color_bg1 = '#3c3836'
 color_bg3 = '#665c54'
 color_blue = '#458588'
 color_aqua = '#689d6a'
-color_green = '#98971a'
+color_green = '#b8bb26'
 color_orange = '#fb4934'
 color_purple = '#b16286'
 color_red = '#cc241d'
-color_yellow = '#fabd2d'
+color_yellow = '#d79921'
 
 [os]
 disabled = false
-style = "bg:color_purple fg:color_fg0"
+style = "bg:color_yellow fg:color_fg0"
 
 [os.symbols]
 Windows = "󰍲"
@@ -51,12 +51,12 @@ Pop = ""
 
 [username]
 show_always = true
-style_user = "bg:color_purple fg:color_fg0"
+style_user = "bg:color_yellow fg:color_fg0"
 style_root = "bg:color_purple fg:color_fg0"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:color_fg0 bg:color_blue"
+style = "fg:color_fg0 bg:color_red"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -66,7 +66,7 @@ disabled = false
 
 [character]
 disabled = false
-success_symbol = '[](bold fg:color_yellow)'
+success_symbol = '[](bold fg:color_green)'
 error_symbol = '[](bold fg:color_red)'
 vimcmd_symbol = '[](bold fg:color_green)'
 vimcmd_replace_one_symbol = '[](bold fg:color_purple)'
